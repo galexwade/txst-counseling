@@ -1,0 +1,161 @@
+a {
+    color: #8D734A;
+}
+
+#hero:before {
+    content: "";
+    background: #501214!important;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header.header-scrolled {
+    background: #501214!important;
+    height: 60px;
+}
+
+#hero .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #8D734A!important;
+}
+
+#footer {
+    background: #501214!important;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+#footer .copyright {
+    border-top: 1px solid #8D734A!important;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about .icon-box .icon i {
+    color: #501214;
+    font-size: 32px;
+}
+
+.contact .php-email-form button[type="submit"] {
+    background: #8D734A!important;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.about .icon-box .icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #501214!important;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #501214!important;
+}
+
+.about .icon-boxes h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #501214!important;
+    margin-bottom: 15px;
+}
+
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #501214!important;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #501214;
+}
+
+.team .member .social a {
+    transition: color 0.3s;
+    color: #501214;
+}
+
+.team .member h4::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #501214;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #501214;
+}
+
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #501214;
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #501214;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #8D734A!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-primary {
+    background-color: #ffffff!important;
+}
+
+#call-to-action {
+	color: #ffffff;
+	background-color: #501214!important;
+}
+
+li {
+	font-size: 16px;
+}
